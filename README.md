@@ -20,6 +20,6 @@ This script:
 
 ## Requirements
 - QGIS 3.x
-- statistical areas (sa1) boundaries
-- transit stop points
+- Statistical areas (sa1) boundaries
+- Transit stop points
 - OSM data (optional)
