@@ -1,6 +1,6 @@
 # Perth Transit Walkshed Analysis
 
-Transit accessibility analysis for perth, australia that creates walksheds around transit stops and provides a framework for walkability scoring.
+Transit accessibility analysis for Perth, Australia that creates walksheds around transit stops and provides a framework for walkability scoring.
 
 ## Overview
 This script:
