@@ -11,7 +11,7 @@ This script:
 ## Technical notes
 - Handles GDA2020 coordinate system 
 - Uses degree-based buffer (0.004°) instead of meters due to QGIS CRS quirks
-- includes placeholder scoring logic that can be replaced with true spatial analysis
+- Includes placeholder scoring logic that can be replaced with true spatial analysis
 
 ## Visualization
 - See Perth Walkability Map.png for example layout (transit accessibility in Perth metro)
