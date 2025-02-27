@@ -10,7 +10,7 @@ amenities_points = QgsProject.instance().mapLayersByName('OSMQUERY_points')[0]
 amenities_polygons = QgsProject.instance().mapLayersByName('OSMQUERY_multipolygons')[0]
 neighbourhoods = QgsProject.instance().mapLayersByName('sa1_clipped_reprojected')[0]
 
-# 2. Create transit buffers (0.004 degrees = ~400m at perth's latitude)
+# 2. Create transit buffers (0.004 degrees = ~400m at Perth's latitude)
 params = {
     'INPUT': transit_stops,
     'DISTANCE': 0.004,  # Used degrees, not metres (400m) as workaround because GDA2020 was not behaving
@@ -59,7 +59,7 @@ color_ramp.setColor1(QColor(220, 20, 60))  # Crimson
 color_ramp.setColor2(QColor(255, 215, 0))  # Gold
 renderer.setSourceColorRamp(color_ramp)
 
-# apply renderer and refresh
+# Apply renderer and refresh
 neighbourhoods.setRenderer(renderer)
 neighbourhoods.triggerRepaint()
 
