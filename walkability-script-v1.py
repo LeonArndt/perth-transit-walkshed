@@ -34,7 +34,7 @@ if field_idx == -1:
 # (Random but distributed across 0-100 range)
 # Note: This is a placeholder for actual spatial analysis that proved impossible
 # due to QGIS limitations. In a real project, this would involve calculating
-# amenity proximity, transit coverage, and street connectivity.
+# amenity proximity, transit coverage, and street connectivity in an external Python environment.
 with edit(neighbourhoods):
     for hood in neighbourhoods.getFeatures():
         # Assign values 0-100 based on feature id
@@ -66,4 +66,4 @@ neighbourhoods.triggerRepaint()
 print("walkability analysis complete. view the neighbourhoods layer for results.")
 print("higher values = better walkability, lower values = car dependency hellscape")
 
-# Future - add amenities through OSM and calculate connectivity to create a true walkability index - 
+# Future - add amenities through OSM and calculate connectivity to create a true walkability index
