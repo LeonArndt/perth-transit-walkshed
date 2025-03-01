@@ -53,7 +53,7 @@ with edit(neighbourhoods):
 renderer = QgsGraduatedSymbolRenderer()
 renderer.setClassAttribute('walkability')
 
-# Color ramp from red to gold
+# Colour ramp from red to gold
 color_ramp = QgsGradientColorRamp()
 color_ramp.setColor1(QColor(220, 20, 60))  # Crimson 
 color_ramp.setColor2(QColor(255, 215, 0))  # Gold
