@@ -7,6 +7,7 @@ This script:
 - Creates 400m buffers around transit stops
 - Assigns walkability scores to statistical areas
 - Visualizes the results
+- Can be run directly in QGIS without hitting computational limits
 
 ## Technical notes
 - Handles GDA2020 coordinate system 
